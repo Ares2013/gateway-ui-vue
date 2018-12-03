@@ -8,6 +8,7 @@ import request from "../utils/request";
 
 const PREFIX = '/system';
 
+//
 export function backup(data) {
     return request({
         url: PREFIX + '/backup',
@@ -15,6 +16,7 @@ export function backup(data) {
         data
     })
 }
+
 
 export function getAllData() {
     return request({
